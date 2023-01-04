@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include shin_tech25.molecule_demo"
+      include_role:
+        name: "molecule_demo"
